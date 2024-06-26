@@ -52,7 +52,7 @@ app.get('/', async (req, res) => {
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>Name</th>
+                    <th>Nama</th>
                     <th>Email</th>
                     <th>Source</th>
                 </tr>
@@ -85,7 +85,7 @@ app.get('/', async (req, res) => {
                 <h1 class="mb-4">Form Input</h1>
                 <form action="/submit" method="POST">
                     <div class="form-group">
-                        <label for="name">Name:</label>
+                        <label for="name">Nama:</label>
                         <input type="text" class="form-control" id="name" name="name">
                     </div>
                     <div class="form-group">
